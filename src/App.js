@@ -19,13 +19,12 @@ function App() {
       })
   }, []);
   const options = [
-    { value: 5 },
-    { value: 4 },
-    { value: 3 },
-    { value: 2 },
-    { value: 1 }
+    { value: 5, label: "Five Days Ago"},
+    { value: 4, label: "Four Days Ago"},
+    { value: 3, label: "Three Days Ago"},
+    { value: 2, label: "Two Days Ago"},
+    { value: 1, label: "One Day Ago"}
    ];
-   console.log(options);
   
   return (
     <div className="App">

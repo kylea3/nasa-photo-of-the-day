@@ -26,8 +26,9 @@
 }
 
 .dropdown-item {
-  padding: 5px;
+  padding: 15px;
   cursor: pointer;
+  color: black;
 }
 
 .dropdown-item:hover {
